@@ -11,7 +11,7 @@ RUN apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plug
 RUN docker --version
 
 
-# docker build -tjenkins/jenkins:lts-jdk11 .
+# 
 # docker volume create jenkins
 # docker run --privileged -d -p 50000:50000 -p 8080:8080 -v //var/run/docker.sock:/var/run/docker.sock -v jenkins:/var/jenkins_home jenkins/jenkins:lts-jdk11
 
