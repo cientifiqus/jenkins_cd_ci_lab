@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template">
+	<name>bymontolla</name>
+	<creationDate>2015-11-01</creationDate>
+	<author>Montolla.tk</author>
+	<authorEmail>info@montolla.tk</authorEmail>
+	<authorUrl>http://montolla.tk</authorUrl>
+	<copyright>By Montolla 2015</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>bymontolla</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>proyectos</position>
+		<position>tips</position>
+		<position>consejos</position>
+		<position>contacto</position>
+		<position>footer</position>
+	</positions>
+</extension>
